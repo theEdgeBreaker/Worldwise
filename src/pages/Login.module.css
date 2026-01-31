@@ -1,0 +1,58 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.form {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  /* Different from other form */
+  width: 48rem;
+  margin: 8rem auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.placeBtn {
+  width: 100%;
+}
+
+.placeBtn > div {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .login {
+    margin: 0;
+    padding: 1.5rem 3rem;
+    background-color: var(--color-dark--1);
+    min-height: calc(100vh);
+    min-width: 100vw;
+    width: auto;
+  }
+
+  .form {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+    width: auto;
+
+    /* Different from other form */
+    /* width: 48rem; */
+    margin: 4rem auto;
+  }
+}

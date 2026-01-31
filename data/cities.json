@@ -1,0 +1,88 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Faro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806752
+    },
+    {
+      "cityName": "El Abiodh Sidi Cheikh",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-12-20T10:40:01.766Z",
+      "notes": "",
+      "position": {
+        "lat": "32.03070017090958",
+        "lng": "1.6130117058547813"
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Beni Abbes",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-12-20T10:41:20.766Z",
+      "notes": "",
+      "position": {
+        "lat": "30.188204914862258",
+        "lng": "-2.3072343252104215"
+      },
+      "id": 73930387
+    },
+    {
+      "cityName": "Peralejos de las Truchas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-12-20T19:05:07.547Z",
+      "notes": "",
+      "position": {
+        "lat": "40.62614487368307",
+        "lng": "-1.954422909569116"
+      },
+      "id": 73930388
+    },
+    {
+      "cityName": "Saint-Bonnet-de-Salers",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-12-20T19:10:43.134Z",
+      "notes": "",
+      "position": {
+        "lat": "45.16114336316294",
+        "lng": "2.4938964843750004"
+      },
+      "id": 73930389
+    },
+    {
+      "cityName": "Amritpur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-12-22T00:16:39.097Z",
+      "notes": "Good Place to vist",
+      "position": {
+        "lat": "27.453659320939863",
+        "lng": "79.6728515625"
+      },
+      "id": 73930390
+    }
+  ]
+}

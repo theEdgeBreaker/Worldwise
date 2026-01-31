@@ -1,0 +1,94 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:50dvh;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 1.5rem;
+    display: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    background-color: var(--color-brand--2);
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    z-index: 2;
+  }
+
+  /* Hide links initially */
+  .menu li {
+    margin: 1rem 0;
+  }
+
+  /* Toggle menu */
+  .toggle:checked ~ .menu {
+    display: flex;
+  }
+  .nav a:global(.active) {
+  color: var(--color-light--3);
+  }
+}
