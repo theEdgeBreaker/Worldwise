@@ -8,7 +8,7 @@ import Message from "../components/Message";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("Aditya@example.com");
+  const [email, setEmail] = useState("Sanjana@example.com");
   const [password, setPassword] = useState("qwerty");
   const {login , logout , isAuthenticated} = useAuth();
   const navigate = useNavigate();

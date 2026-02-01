@@ -10,6 +10,8 @@ import { useUrlPosition } from '../hooks/useUrlPosition';
 function Map() {
 
   const { cities } = useCities();
+  console.log('cities', cities);
+  
   const [mapPosition, setMapPosition] = useState([40, 0]);
   const [lat , lng] = useUrlPosition();
 
